@@ -17,7 +17,7 @@ $(document).ready(function () {
 });
 
 /**
- * Finds and terminates posts that contain survivor thinks.
+ * Finds and terminates posts that contain survivor things.
  */
 killSurvivor = function () {
   const newElements = $('.userContent');
