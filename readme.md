@@ -1,4 +1,5 @@
 # SurvivorKiller Chrome extension
+![SurvivorKiller image][survivor-killer-info.jpg]
 
 SurvivorKiller is a Chrome extension that finds and terminates Survivor (Greek TV show) posts.
 
