@@ -1,8 +1,7 @@
 // Survivor dictionary.
 const spoilers = ['survivor', 'τσανκ', 'κινέζος', 'Ορέστης', 'αγώνισμα', 'Ορέστης', 'Σάρα', 'Τσανγκ', 'Μισθοφόρος',
   'Λάουρα', 'Σπαλιάρας', 'Σπαλ', 'Χρανιώλα', 'Χρανιώτης', 'ΜΠΟ ', 'Ασυλία', 'Κολιδά', 'Μαχητές',
-  'Αγγελόπουλος', 'Βαλαβάνη', 'orestis', 'Ελισάβετ', 'ΒΑΛΑΒΑΝΗ', 'ΕΛΙΣΑΒΕΤ'];
-
+  'Αγγελόπουλος', 'Βαλαβάνη', 'orestis', 'Ελισάβετ', 'ΒΑΛΑΒΑΝΗ', 'ΕΛΙΣΑΒΕΤ', 'mounopanos'];
 // Generate regex string.
 const spoilersRegex = new RegExp(spoilers.join('|'), 'i');
 
@@ -17,7 +16,7 @@ $(document).ready(function () {
 });
 
 /**
- * Finds and terminates posts that contain survivor thinks.
+ * Finds and terminates posts that contain survivor things.
  */
 killSurvivor = function () {
   const newElements = $('.userContent');
