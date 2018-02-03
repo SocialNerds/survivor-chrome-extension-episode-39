@@ -9,8 +9,8 @@
         "http://www.facebook.com/*",
         "https://www.facebook.com/*"
       ],
+      "options_page": "options.html",
       "js": [
-        "jquery.min.js",
         "script.js"
       ]
     }
